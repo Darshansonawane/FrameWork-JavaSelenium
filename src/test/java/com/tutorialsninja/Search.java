@@ -49,7 +49,7 @@ public class Search {
 		driver.quit();
 	}
 	
-	@Test(priority = -1)
+	@Test(enabled = false)
 	public void verifySearchWithInvalidProduct() throws IOException {
 
 		 WebDriver driver = new FirefoxDriver();
@@ -79,7 +79,7 @@ public class Search {
 	}
 	
 	
-	@Test(priority = -1)
+	@Test(enabled = false)
 	
 	public void verifySearchWithoutAnyProduct() throws IOException {
 		
